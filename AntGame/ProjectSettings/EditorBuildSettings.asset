@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TinderGame.unity
     guid: 7573a18835b2840419b6082822644dcd
+  - enabled: 1
+    path: Assets/Scenes/MinecraftGame.unity
+    guid: 6e2487fc700fa574cadc60659f98fb3c
   m_configObjects: {}
