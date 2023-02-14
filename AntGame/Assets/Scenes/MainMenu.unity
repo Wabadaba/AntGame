@@ -811,7 +811,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4344905601658291281, guid: fabaa2d9e6a201e4080d95d20dabd667, type: 3}
       propertyPath: levelScenes.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4344905601658291281, guid: fabaa2d9e6a201e4080d95d20dabd667, type: 3}
       propertyPath: levelScenes.Array.data[0]
@@ -820,6 +820,10 @@ PrefabInstance:
     - target: {fileID: 4344905601658291281, guid: fabaa2d9e6a201e4080d95d20dabd667, type: 3}
       propertyPath: levelScenes.Array.data[1]
       value: MinecraftGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344905601658291281, guid: fabaa2d9e6a201e4080d95d20dabd667, type: 3}
+      propertyPath: levelScenes.Array.data[2]
+      value: CircleKGame
       objectReference: {fileID: 0}
     - target: {fileID: 4344905601658291282, guid: fabaa2d9e6a201e4080d95d20dabd667, type: 3}
       propertyPath: m_RootOrder

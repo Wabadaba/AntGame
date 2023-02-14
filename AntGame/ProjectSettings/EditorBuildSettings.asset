@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MinecraftGame.unity
     guid: 6e2487fc700fa574cadc60659f98fb3c
+  - enabled: 1
+    path: Assets/Scenes/CircleKGame.unity
+    guid: 625328ecf55fa8143b23864a0b3fb83a
   m_configObjects: {}
