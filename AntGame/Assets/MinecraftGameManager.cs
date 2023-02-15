@@ -8,6 +8,8 @@ public class MinecraftGameManager : MonoBehaviour
     public int clicksNeeded;
     private int clickNumber;
     private SpriteRenderer sr;
+    [SerializeField]
+    ParticleSystem particles;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +28,7 @@ public class MinecraftGameManager : MonoBehaviour
         clickNumber += 1;
         sr.color = new Color(1, 0.74f, 0.74f);
         GetComponent<Animator>().SetTrigger("Clicked");
+        particles.Emit(10);
 
         StopCoroutine("WaitForNextLevel");
         StartCoroutine("WaitForNextLevel");
