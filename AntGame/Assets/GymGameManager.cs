@@ -52,10 +52,14 @@ public class GymGameManager : MonoBehaviour
                 fadeIn = false;
         }
         if (Input.GetMouseButtonDown(0))
-        {
+        {   
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector3.forward);
-            clickedOnObject = hit.transform.gameObject;
-            MouseClick();
+            if (hit != false)
+            {
+                clickedOnObject = hit.transform.gameObject;
+
+                MouseClick();
+            }
         }
     }
 
