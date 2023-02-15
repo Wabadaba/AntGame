@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CircleKGame.unity
     guid: 625328ecf55fa8143b23864a0b3fb83a
+  - enabled: 1
+    path: Assets/Scenes/SpeedReadGame.unity
+    guid: 91294aa74f84ac24fb7c1bd9bec6923b
   m_configObjects: {}
