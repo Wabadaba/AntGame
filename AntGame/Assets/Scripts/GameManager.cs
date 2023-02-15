@@ -40,6 +40,11 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    private void Start()
+    {
+        FindObjectOfType<AudioManager>().Play("mainsoundtrack");
+    }
+
     /**
      * Does everything necessary to start a game
      * sets variables, puts the player into a scene
