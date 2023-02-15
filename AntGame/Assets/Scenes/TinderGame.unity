@@ -138,6 +138,10 @@ PrefabInstance:
       propertyPath: levelTime
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 243577612680928924, guid: 98959856c9d190841b4a4dccd70a45eb, type: 3}
+      propertyPath: Instructions
+      value: Find a cute date!
+      objectReference: {fileID: 0}
     - target: {fileID: 243577612680928925, guid: 98959856c9d190841b4a4dccd70a45eb, type: 3}
       propertyPath: m_Name
       value: LevelManager
@@ -645,9 +649,9 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 50
+  m_SortingOrder: 300
   m_TargetDisplay: 0
 --- !u!224 &1387708682
 RectTransform:
@@ -859,6 +863,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1387708682}
     m_Modifications:
+    - target: {fileID: 4658859131012382008, guid: a811948476ee4c44b8ea6120936a79cb, type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658859131012382008, guid: a811948476ee4c44b8ea6120936a79cb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 4658859131012382008, guid: a811948476ee4c44b8ea6120936a79cb, type: 3}
+      propertyPath: m_Color.a
+      value: 0.69411767
+      objectReference: {fileID: 0}
     - target: {fileID: 4658859131012382011, guid: a811948476ee4c44b8ea6120936a79cb, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -905,7 +921,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4658859132397890679, guid: a811948476ee4c44b8ea6120936a79cb, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 160
+      value: 430
       objectReference: {fileID: 0}
     - target: {fileID: 4658859132397890679, guid: a811948476ee4c44b8ea6120936a79cb, type: 3}
       propertyPath: m_SizeDelta.y
@@ -953,7 +969,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4658859132397890679, guid: a811948476ee4c44b8ea6120936a79cb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 200
+      value: 220
       objectReference: {fileID: 0}
     - target: {fileID: 4658859132397890679, guid: a811948476ee4c44b8ea6120936a79cb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

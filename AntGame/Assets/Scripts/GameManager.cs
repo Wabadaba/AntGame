@@ -25,8 +25,6 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance;
 
-    const int TRICKBONUS = 3;
-
     private void Awake()
     {
         if (instance == null)
@@ -51,7 +49,7 @@ public class GameManager : MonoBehaviour
      */
     public void StartGame()
     {
-        remainingLives = 5;
+        remainingLives = 3;
         score = 0;
         levelsBeaten = 0;
 
@@ -129,6 +127,6 @@ public class GameManager : MonoBehaviour
      */
     private void GameOver()
     {
-        SceneManager.LoadScene("GameOverScene");
+        SceneManager.LoadScene("GameOver");
     }
 }

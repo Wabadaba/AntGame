@@ -138,6 +138,10 @@ PrefabInstance:
       propertyPath: levelTime
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 243577612680928924, guid: 98959856c9d190841b4a4dccd70a45eb, type: 3}
+      propertyPath: Instructions
+      value: Fight!
+      objectReference: {fileID: 0}
     - target: {fileID: 243577612680928925, guid: 98959856c9d190841b4a4dccd70a45eb, type: 3}
       propertyPath: m_Name
       value: LevelManager

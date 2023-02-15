@@ -5,6 +5,11 @@ using UnityEngine.UI;
 using TMPro;
 public class LevelManager : MonoBehaviour
 {
+    public TMP_Text InstructionText;
+    public string Instructions;
+
+    private TMP_Text SpawnedText;
+
     public bool WaitWinCon; // if the win condition is to run out the clock, set to true
 
     // UI elements
@@ -26,6 +31,9 @@ public class LevelManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SpawnedText = Instantiate(InstructionText, FindObjectOfType<Canvas>().transform);
+        SpawnedText.text = Instructions;
+
         // Get the necessary variables
         gm = FindObjectOfType<GameManager>();
         // am = FindObjectOfType<AudioManager>();
