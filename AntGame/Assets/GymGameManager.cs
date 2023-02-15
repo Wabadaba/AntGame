@@ -38,7 +38,7 @@ public class GymGameManager : MonoBehaviour
         int randomWeightIndex = Random.Range(0, randomWeights.Length);
         randomWeight = randomWeights[randomWeightIndex];
 
-        weightText.text = "Weight: " + randomWeight.ToString();
+        weightText.text = randomWeight.ToString();
 
     }
 
