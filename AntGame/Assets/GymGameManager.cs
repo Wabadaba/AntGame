@@ -133,7 +133,6 @@ public class GymGameManager : MonoBehaviour
     {
         int chicken = fiveL + fiveLtwo + tenL + tenLtwo + twentyFiveL + fortyFiveL;
         int cow = fiveR + fiveRtwo + tenR + tenRtwo + twentyFiveR + fortyFiveR;
-        Debug.Log(randomWeight);
         if ((fiveL + fiveLtwo + tenL + tenLtwo + twentyFiveL + fortyFiveL) == (fiveR + fiveRtwo + tenR + tenRtwo + twentyFiveR + fortyFiveR))
         {
             if ((fiveL + fiveLtwo + tenL + tenLtwo + twentyFiveL + fortyFiveL) == (randomWeight/2))
