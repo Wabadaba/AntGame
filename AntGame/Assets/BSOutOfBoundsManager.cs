@@ -7,6 +7,11 @@ public class BSOutOfBoundsManager : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("OOB");
+        LoseLevel();
+    }
+
+    private void LoseLevel()
+    {
+        FindObjectOfType<LevelManager>().CompleteLevel(false);
     }
 }

@@ -47,7 +47,7 @@ public class BSCollider : MonoBehaviour
             }
             else
             {
-                Debug.Log("LOSE - CLICKED WRONG/NO OBJECT");
+                LoseLevel();
             }
         }
         else
@@ -58,8 +58,13 @@ public class BSCollider : MonoBehaviour
             }
             else
             {
-                Debug.Log("LOSE - CLICKED WRONG/NO OBJECT");
+                LoseLevel();
             }
         }
+    }
+
+    private void LoseLevel()
+    {
+        FindObjectOfType<LevelManager>().CompleteLevel(false);
     }
 }

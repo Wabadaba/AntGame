@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MinecraftGameManager : MonoBehaviour
 {
@@ -11,16 +12,23 @@ public class MinecraftGameManager : MonoBehaviour
     [SerializeField]
     ParticleSystem particles;
 
+    public Slider slider;
+
     // Start is called before the first frame update
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        slider.maxValue = clicksNeeded;
+        slider.value = clicksNeeded;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (slider)
+        {
+            slider.value = (clicksNeeded - clickNumber);
+        }
     }
 
     private void OnMouseDown()
