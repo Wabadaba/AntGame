@@ -510,7 +510,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A Day in the Ant
+  m_text: Annie Antics
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 09aebbdae6f82234a8c602700c524892, type: 2}
   m_sharedMaterial: {fileID: -7178035079299830042, guid: 09aebbdae6f82234a8c602700c524892, type: 2}
