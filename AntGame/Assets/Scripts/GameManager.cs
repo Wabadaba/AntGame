@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
     private int levelsBeaten;    // # of lvls the player has beat
     private int remainingLives;  // # of lives the player has left
 
+    bool lastLevelWon;
+
     [SerializeField]
     private string[] levelScenes; // the list of scenes that are actually levels
     [SerializeField]
@@ -105,6 +107,8 @@ public class GameManager : MonoBehaviour
 
     public void EnterScoreScreen(bool win)
     {
+        lastLevelWon = win;
+
         if (win)
         {
             IncrementScore(1);
@@ -128,5 +132,10 @@ public class GameManager : MonoBehaviour
     private void GameOver()
     {
         SceneManager.LoadScene("GameOver");
+    }
+
+    public bool GetLastWin()
+    {
+        return lastLevelWon;
     }
 }
