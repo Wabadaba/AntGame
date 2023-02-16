@@ -242,6 +242,11 @@ MonoBehaviour:
   - {fileID: 21300000, guid: efd67fbdb6883d347a985c5ce054d76e, type: 3}
   - {fileID: 21300000, guid: 1c0e7227d26b3844397a63566d8098de, type: 3}
   - {fileID: 21300000, guid: e331fc00fef57014c90aaa006528dcb0, type: 3}
+  - {fileID: 21300000, guid: 403c969d4e55eb74184a02617df76bab, type: 3}
+  - {fileID: 21300000, guid: dd9fb6908443df040a5296eb4741cf1d, type: 3}
+  - {fileID: 21300000, guid: 2ecdd64b656cb2a44969239bff3ea998, type: 3}
+  - {fileID: 21300000, guid: 3f75f6138dce6654199321256124a46c, type: 3}
+  - {fileID: 21300000, guid: bc23e25f3d045f245bc6cefdd1d28cf6, type: 3}
   galleryCanvas: {fileID: 123897326}
   gameOverCanvas: {fileID: 237345909}
 --- !u!1 &125715069

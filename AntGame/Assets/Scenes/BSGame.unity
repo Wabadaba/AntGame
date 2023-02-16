@@ -194,7 +194,7 @@ PrefabInstance:
       objectReference: {fileID: 812093566}
     - target: {fileID: 243577612680928924, guid: 98959856c9d190841b4a4dccd70a45eb, type: 3}
       propertyPath: levelTime
-      value: 15
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 243577612680928924, guid: 98959856c9d190841b4a4dccd70a45eb, type: 3}
       propertyPath: WaitWinCon
