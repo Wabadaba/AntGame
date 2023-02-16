@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Gym Game.unity
     guid: 8d52638f76b431f46a83e343ddd3bebe
   - enabled: 1
+    path: Assets/Scenes/TAGame.unity
+    guid: 302c780f4e58183469a27f3c051872d9
+  - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 066ccac0d4a13164c805ed8110ab38ed
   m_configObjects: {}
